@@ -2,3 +2,4 @@
 
 FNAME="data/uniprot_sprot.$(date +'%Y-%m-%d').fasta.gz"
 curl --location --output $FNAME http://bit.ly/1l6SAKb
+chmod 444 $FNAME
