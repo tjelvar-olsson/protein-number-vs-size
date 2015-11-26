@@ -1,3 +1,4 @@
 #!/bin/bash
 
-curl --location --output data/uniprot_sprot.fasta.gz http://bit.ly/1l6SAKb
+FNAME="data/uniprot_sprot.$(date +'%Y-%m-%d').fasta.gz"
+curl --location --output $FNAME http://bit.ly/1l6SAKb
